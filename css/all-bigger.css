@@ -1,0 +1,60 @@
+html {
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+html>body {
+	font-size: 16px;
+	font-size: 80%;
+}
+body {
+/*	behavior:url("/htc/csshover.htc"); */
+	font-family: Verdana, helvetica, arial, sans-serif;
+	font-size: 80%;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+}
+
+h1,h2.h3,h4,h5,h6 {
+	margin: 0;
+	line-height: 1em;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+}
+	
+h1 { font-size: 1.3em } 
+h2 { font-size: 1.2em }  
+h3 { font-size: 1.1em } 
+h4 { font-size: 1em }  
+th, td, input, select { font-size: 1em; line-height: 1.2em;}
+
+table {
+	border-collapse: collapse;
+	empty-cells: show;
+}
+
+table td, table th {
+}
+
+div.error h3 {
+	margin: 0;
+}
+div.error p {
+	margin: 0;
+}
+div.error {
+	border: 2px solid #f00;
+	background: #fee;
+	color: #f00;
+	padding: 10px;
+	width: 300px;
+}
+.access {
+	display: none;
+}

@@ -1,0 +1,107 @@
+body {
+	background-color: #000;
+  color: #fff;
+}
+
+a {
+	color: #ffd142;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* Navigation Colors */
+#nav a { border: 1px solid #3c4f3a; background-color: #123416; color: #fff; }
+#nav li ul li:first-child a { border-color: #3c4f3a; }
+
+
+#nav a:hover,
+#nav li:hover a, 
+#nav li:hover li a:hover, 
+#nav li:hover li:hover a, 
+#nav li:hover li:hover a:hover,
+#nav li:hover li:hover li:hover a, 
+#nav li:hover li:hover li:hover a:hover,
+#nav li.fauxhover a, 
+#nav li.fauxhover li a.hover, 
+#nav li.fauxhover li.fauxhover a, 
+#nav li.fauxhover li.fauxhover a.fauxhover,
+#nav li.fauxhover li.fauxhover li.fauxhover a, 
+#nav li.fauxhover li.fauxhover li.fauxhover a:hover
+ { color: #ffd142; background-color: #132C15; }
+#nav li:hover li a, /* Tier 1 On, Tier 2 off */
+#nav li:hover li:hover li a,
+#nav li:hover li:hover li:hover li a,
+#nav li.fauxhover li a, /* Tier 1 On, Tier 2 off */
+#nav li.fauxhover li.fauxhover li a,
+#nav li.fauxhover li.fauxhover li.fauxhover li a
+	{ background-color: #132C15; color: #fff; }
+
+a.haschild { background: url(../img/arrow.gif) right center no-repeat; background-position: 95%; }
+
+
+#divMainWrapper div.start {
+	background: url(../img/cssgreen/abstop.gif);
+}
+
+#divMainWrapper {
+	background: url(../img/cssgreen/ad_empty_filler.gif) top right repeat-y; 
+}
+#divMainSubWrapper {
+	background: url(../img/cssgreen/contentheadlinefiller.gif) top left repeat-y;
+}
+
+#divAdWrapper {
+	background: url(../img/cssgreen/ad_space_filler.gif);
+}
+
+#divAdWrapper strong {
+	background: url(../img/cssgreen/ad_space_top.gif) no-repeat;
+	
+}
+
+#divAdWrapper div.stop {
+	background: url(../img/cssgreen/ad_space_bottom.gif);
+}
+
+#divFooter {
+	background: url(../img/cssgreen/bottomfiller.gif);
+}
+#divFooter div.stop {
+	background: url(../img/cssgreen/footer.gif);
+}
+
+#divMainWrapper .cssContent div.start { background: url(../img/cssgreen/contentstart.gif); }
+#divMainWrapper .cssContent { background: url(../img/cssgreen/contentfiller.gif); }
+#divMainWrapper .cssContent div.stop { background: url(../img/cssgreen/contentend.gif); }
+
+#divMainWrapper .cssContent2Box div.start {	background: url(../img/cssgreen/content2boxtop.gif); }
+#divMainWrapper .cssContent2Box { background: url(../img/cssgreen/content2boxfiller.gif); }
+#divMainWrapper .cssContent2Box div.stop {	background: url(../img/cssgreen/content2boxbottom.gif); }
+
+#divMainWrapper .cssContent3Box div.start {	background: url(../img/cssgreen/content3boxtop.gif); }
+#divMainWrapper .cssContent3Box { background: url(../img/cssgreen/content3boxfiller.gif); }
+#divMainWrapper .cssContent3Box div.stop {	background: url(../img/cssgreen/content3boxbottom.gif); }
+
+#divMainWrapper .cssContent33Box div.start {	background: url(../img/cssgreen/content33boxtop.gif); }
+#divMainWrapper .cssContent33Box { background: url(../img/cssgreen/content33boxfiller.gif); }
+#divMainWrapper .cssContent33Box div.stop {	background: url(../img/cssgreen/content33boxbottom.gif); }
+
+#divMainWrapper .cssContent66Box div.start {	background: url(../img/cssgreen/content66boxtop.gif); }
+#divMainWrapper .cssContent66Box { background: url(../img/cssgreen/content66boxfiller.gif); }
+#divMainWrapper .cssContent66Box div.stop {	background: url(../img/cssgreen/content66boxbottom.gif); }
+
+
+#divAdWrapper a {
+	text-decoration: none;
+}
+#divAdWrapper a:hover {
+	text-decoration: underline;
+}
+
+#divHeader {
+	background-image: url(../img/cssgreen/header.jpg);
+}

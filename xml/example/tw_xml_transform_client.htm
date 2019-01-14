@@ -1,0 +1,22 @@
+<HTML>
+<HEAD>
+</HEAD>
+<BODY>
+<script type="text/javascript">
+// Load XML 
+var xml = new ActiveXObject("Microsoft.XMLDOM")
+xml.async = false
+//xml.load("TFarena_XML.xml")
+xml.load("http://www.teamwarfare.com/xml/viewteam.asp?team=Cabal+kaBob&extension=.xml")
+
+// Load the XSL
+var xsl = new ActiveXObject("Microsoft.XMLDOM")
+xsl.async = false
+xsl.load("tw_xsl_transform.xsl")
+
+// Transform
+document.write(xml.transformNode(xsl))
+</script>
+</BODY>
+</HTML>
+

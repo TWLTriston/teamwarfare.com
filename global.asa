@@ -1,0 +1,14 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+Sub Application_OnStart
+	Dim strConnection
+	Application.lock
+		Application("ConnectStr")			= "file name=d:\webroot\twl.udl"
+		Application("DemoUploadDir")		= "d:\TWLFiles\Demos\"
+		Application("SMTPServer")			= "127.0.0.1"
+		Application("EmailFrom")			= "TeamWarfare League"
+		Application("EmailFromAddress")		= "automailer@web.teamwarfare.com"
+	Application.UnLock 
+End Sub
+
+</SCRIPT>
+

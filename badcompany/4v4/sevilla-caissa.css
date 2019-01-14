@@ -1,0 +1,512 @@
+/* Sevilla.css                                                */
+/* This template (C)2006-2009 JBF Software                    */
+/* Created by JP Hendriks                                     */
+/* http://www.jbfsoftware.com                                 */
+/*                                                            */
+/* Default style sheet for use with webtool                   */
+/* You may freely modify this style sheet according to your   */
+/* taste                                                      */
+
+/* MainTitle is the overall style for the main data block     */
+/* which is the part that contains the unique (player, round, */
+/* ....) data for the specific page                           */
+.MainTitle
+{
+	border-style: solid;
+	border-width: thin;
+	width: 440px;
+	text-align: center;
+}
+
+/* MainTitleRow is the style for a row in the main title      */
+.MainTitleRow
+{
+	color: #f4e8f4;
+	background-color: #188048;
+	font-weight: bold;
+}
+
+/* SingleLineTitle is the overall style for the single line   */
+/* data block.                                                */
+.SingleLineTitle
+{
+	border-style: solid;
+	border-width: thin;
+	width: 360px;
+	text-align: center;
+}
+
+/* SingleLineRow is the style for the row in the singleLine   */
+.SingleLineRow
+{
+	background-color: #e8f8e8;
+	font-size: 8pt;
+}
+
+/* CompInfoTable is the style for the general competition     */
+/* and group data found at the start of each page             */
+.CompInfoTable
+{
+	border-style: solid;
+	border-width: thin;
+	width: 440px;
+}
+
+/* style for the line in the competition info table           */
+/* containing the competition name                            */
+.CompInfoHeader
+{
+	font-weight: bold;
+	text-align: center;
+	background-color: #e8e8e8;
+}
+
+/* style for the other competition info - caption             */
+.CompInfoCaption
+{
+	background-color: #f8f8f8;
+}
+
+/* style for the other competition info - value               */
+.CompInfoValue
+{
+	background-color: #f8f8f8;
+}
+
+/* style for the line in the competition info table           */
+/* containing the group name                                  */
+.GroupInfoHeader
+{
+	font-weight: bold;
+	text-align: center;
+	color: #f4e8f4;
+	background-color: #188048;
+}
+
+/* MainTable holds the style of the main table                */
+.MainTable
+{
+	border-style: none;
+	vertical-align: top;
+}
+
+/* MenuTable is the style used for the "menu structure"       */
+/* containing the links to the various pages                  */
+.MenuTable
+{
+	border-style: solid;
+	border-width: thin;
+	width: 130px;
+	vertical-align: top;
+}
+
+/* MenuRow is the style for a row in the menu table           */
+.MenuRow
+{
+	background-color: #e8f8e8;
+}
+
+/* menu group name are additional attributes for the group    */
+/* name in the menu                                           */
+.MenuGroupName
+{
+	font-weight:bold;
+}
+
+/* CountryFlag is the style for the Country flags             */
+.CountryFlag
+{
+	vertical-align: middle;
+}
+
+/* SmallPict is the style for a small player picture          */
+.SmallPict
+{
+	vertical-align: middle;
+}
+
+/* NormalPict is the style for a normal player picture        */
+.NormalPict
+{
+	vertical-align: middle;
+}
+
+/* LargePict is the style for a large player picture          */
+/* This style is currently not used by Sevilla                */
+.LargePict
+{
+	vertical-align: middle;
+}
+
+/* playerdata is the style for the table with player data     */
+.PlayerDataTable
+{
+	border-style: solid;
+	border-width: thin;
+	width: 180px;
+	vertical-align: top;
+}
+
+/* playerdatamainline is the style for the name line of the   */
+/* player data table.                                         */
+.PlayerDataHeader
+{
+	font-weight: bold;
+	text-align: center;
+	color: #f4e8f4;
+	background-color: #188048;
+}
+
+/* style for the other player info - fixed labels             */
+.PlayerDataCaption
+{
+	background-color: #f8f8f8;
+}
+
+/* style for the other player info - values                   */
+.PlayerDataValue
+{
+	background-color: #f8f8f8;
+}
+
+/* GameListTable is the style for a table with games          */
+.GameListTable
+{
+	border-style: solid;
+	border-width: thin;
+}
+
+/* GameListHeader is the style for the header row of          */
+/* a table with games                                         */
+.GameListHeader
+{
+	color: #f4e8f4;
+	background-color: #188048;
+	font-weight: bold;
+}
+
+/* GameListOddLine is the style for rows in a game list with  */
+/* oddindexes                                                 */
+.GameListOddLine
+{
+	background-color: #f8f8f8;
+}
+
+/* GameListEvenLine is the style for rows in a game list with */
+/* even indexes                                               */
+.GameListEvenLine
+{
+	background-color: #d8f0d8;
+}
+
+/* PlayerListTable is the style for a table with the          */
+/* participating players                                      */
+.PlayerListTable
+{
+	border-style: solid;
+	border-width: thin;
+}
+
+/* PlayerListTitle is the style for the title row of the table*/
+/* with players                                               */
+.PlayerListTitle
+{
+	color: #f4e8f4;
+	background-color: #188048;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* PlayerListHeader is the style for the header row of        */
+/* a table containing the list of players                     */
+.PlayerListHeader
+{
+	color: #f4e8f4;
+	background-color: #188048;
+	font-weight: bold;
+}
+
+/* PlayerListOddLine is the style for rows in a ranking with  */
+/* odd indexes                                                */
+.PlayerListOddLine
+{
+	background-color: #f8f8f8;
+}
+
+/* PlayerListEvenLine is the style for rows in a player list  */
+/* with even indexes                                          */
+.PlayerListEvenLine
+{
+	background-color: #d8f0d8;
+}
+
+/* RankingTable is the style for a table a ranking            */
+.RankingTable
+{
+	border-style: solid;
+	border-width: thin;
+}
+
+/* RankingTitle is the style for the title row in the ranking */
+/* headers                                                    */
+.RankingTitle
+{
+	color: #f4e8f4;
+	background-color: #188048;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* RankingHeader is the style for the header row of           */
+/* a table containing a ranking                               */
+.RankingHeader
+{
+	color: #f4e8f4;
+	background-color: #188048;
+	font-weight: bold;
+}
+
+/* RankingOddLine is the style for rows in a ranking with odd */
+/* indexes                                                    */
+.RankingOddLine
+{
+	background-color: #f8f8f8;
+}
+
+/* RankingEvenLine is the style for rows in a ranking with    */
+/* even indexes                                               */
+.RankingEvenLine
+{
+	background-color: #d8f0d8;
+}
+
+/* XRefTable is the style for a table with an xref            */
+.XRefTable
+{
+	border-style: solid;
+	border-width: thin;
+}
+
+/* XRefHeader is the style for the header row of              */
+/* an xref table                                              */
+.XRefHeader
+{
+	color: #f4e8f4;
+	background-color: #188048;
+	font-weight: bold;
+/*	writing-mode: tb-rl; */
+/*	filter: flipv fliph; */
+/*	layout-flow: vertical-ideographic; */
+/*	direction: ttb; */
+/*	block-progression: lr; */
+}
+
+/* XRefOddline is the style for rows in an xref with odd      */
+/* indexes                                                    */
+.XRefOddLine
+{
+	background-color: #f8f8f8;
+}
+
+/* XRefEvenline is the style for rows in an xref with         */
+/* even indexes                                               */
+.XRefEvenLine
+{
+	background-color: #d8f0d8;
+}
+
+/* GameLink is the style for the small image, linking to the  */
+/* game viewer. The default image is a small pawn, right to   */
+/* the result                                                 */
+.GameLink
+{
+	float: right;
+	cursor: pointer;
+}
+
+/* ShowBoard is the style used for a board begin shown        */
+/* It is unlikely you need to change this                     */
+.ShowBoard
+{
+	display: block;
+	position: fixed;
+	top: 60px;
+	left: 70px;
+	width: 520px;
+	height: 368px;
+}
+
+* html .ShowBoard
+{
+	position: absolute;
+	width: 528px;
+	height: 376px;
+	top: expression(eval(document.body.scrollTop+70));
+}
+
+/* HideBboard is the style used for a board begin hidden      */
+/* It is unlikely you need to change this                     */
+.HideBoard
+{
+	display: none;
+}
+
+/* GameTable is the style used to set up the game display area*/
+.GameTable
+{
+	border-style: solid;
+	border-width: thin;
+	background-color: #f8f8f8;
+}
+
+/* Navigate and NavigateDisabled control the format of the    */
+/* navigation buttons First, Previous, Next and Last          */
+.Navigate, .NavigateDisabled
+{
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2;
+	padding-bottom: 2;
+	padding-left: 8;
+	padding-right: 8;
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+}
+
+.Navigate
+{
+	cursor: pointer;
+}
+
+.NavigateDisabled
+{
+	background-color: #808080;
+	cursor: auto;
+}
+
+/* PGNLink is the format for the link to the PGN page         */
+.PGNLink
+{
+	vertical-align: middle;
+	text-align: center;
+	font-size: xx-small;
+}
+
+/* Game data is the overall format for the game data          */
+/* include white, black and result                            */
+
+.GameData
+{
+	font-weight: bold;
+	text-align: center;
+	color: #f4e8f4;
+	background-color: #188048;
+}
+
+/* Board is the overall format for the board area             */
+.Board
+{
+	text-align: center;
+}
+
+/* MoveListContainer describes the table that holds the moves */
+.MoveListContainer
+{
+	vertical-align:top;
+	width: 180px;
+	height: 280px;
+	overflow: auto;
+}
+
+/* MoveList is the table that holds the moves (table style)   */
+.MoveList
+{
+	padding: 0;
+	vertical-align: top;
+	border-left-style: solid;
+	border-top-style: solid;
+	border-left-color: black;
+	border-top-color: black;
+	border-width: thin;
+}
+
+/* MoveListText is the text container of moves (text style)   */
+.MoveListText
+{
+	padding: 0;
+	vertical-align: top;
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+}
+
+/* The Move is the format of the move (table style)           */
+.Move, .SelectedMove
+{
+	font-family: lucida console, courier, sans-serif;
+	text-align: center;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-width: thin;
+	padding-top: 2;
+	padding-bottom: 2;
+	padding-left: 8;
+	padding-right: 8;
+	cursor: pointer;
+}
+
+/* MoveText is the format of moves (text style)               */
+.MoveText, .SelectedMoveText
+{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/* SelectedMove holds additional format for the move currently*/
+/* on the board.                                              */
+.SelectedMove, .SelectedMoveText
+{
+	background-color: #d8f0d8;
+}
+
+/* MoveComment is the style used for displaying comments in   */
+/* a text styled move list.                                   */
+.MoveComment
+{
+	font-style: italic;
+}
+
+/* Hovering modification.                                     */
+.Move:hover, .Navigate:hover, .MoveText:hover
+{
+	background-color: #d8f0d8;
+}
+
+/* below are constraints for 'ordinary' html tag rendering    */
+
+body
+{
+	background-color: #ffffff;
+}
+
+ul
+{
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+td,th
+{
+	font-family: helvetica, arial, serif;
+	font-size: 8pt;
+}
+
+a
+{
+	color: #282828;
+}
+
+

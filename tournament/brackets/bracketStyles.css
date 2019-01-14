@@ -1,0 +1,35 @@
+<style>
+.borderBrkt {
+	border-right : 1px solid #444444;
+}
+
+.roundOneBrkt {
+	color:#FFCF3F;
+	background-color:#3F0000;
+	border-bottom : 1px solid #444444;
+	border-top : 1px solid #444444;
+	border-right : 1px solid #444444;
+	border-left : 1px solid #444444;
+	font : 10pt Verdana;
+	text-align : left;
+	padding: 2px;
+}
+
+.teamNameBrkt {
+	color:#FFCF3F;
+	background-color:#3F0000;
+	border-bottom : 1px solid #444444;
+	border-top : 1px solid #444444;
+	border-right : 1px solid #444444;
+	font : 10pt Verdana;
+	text-align : center;
+	padding: 2px;
+}
+
+.roundTitle {
+	font : 10pt Verdana;
+	color : #FFCF3F;
+	text-align : center;
+	font-weight : bold;
+}
+</style>

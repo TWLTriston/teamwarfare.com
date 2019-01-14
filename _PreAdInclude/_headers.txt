@@ -1,0 +1,44 @@
+%% #1
+<td><img src="/images/twlbanner_bf1942.jpg" alt="Battlefield 1942 - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #2
+<td><img src="/images/twlbanner_c&cgenerals.jpg" alt="Command &amp; Conquer Generals - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #3
+<td><img src="/images/twlbanner_americasarmy.jpg" alt="America's Army - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #4
+<td><img src="/images/twlbanner_urbanterror.jpg" alt="Urban Terror - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #5
+<td><img src="/images/twlbanner_bf1942dc.jpg" alt="Battlefield 1942: Desert Combat - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #6
+<td><img src="/images/twlbanner_counterstrike.jpg" alt="Counter Strike - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #7
+<td><img src="/images/twlbanner_dayofdefeat.jpg" alt="Day of Defeat - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #8
+<td><img src="/images/twlbanner_devastation.jpg" alt="Devastation - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #9
+<td><img src="/images/twlbanner_ghostrecon.jpg" alt="Ghost Recon - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #10
+<td><img src="/images/twlbanner_ravenshield.jpg" alt="Rainbow Siw 3: Raven Shield - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #11
+<td><img src="/images/twlbanner_globaloperations.jpg" alt="Global Operations - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #12
+<td><img src="/images/twlbanner_jk2.jpg" alt="Jedi Knight II: Jedi Outcast - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #13
+<td><img src="/images/twlbanner_mw4.jpg" alt="Mechwarrior 4 - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #14
+<td><img src="/images/twlbanner_moh.jpg" alt="Medal of Honor - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #15
+<td><img src="/images/twlbanner_tribesaerialassau.jpg" alt="Tribes: Aerial Assault - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #16
+<td><img src="/images/twlbanner_rtcw.jpg" alt="Return to Castle Wolfenstein - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #17
+<td><img src="/images/twlbanner_rtcwet.jpg" alt="Return to Castle Wolfenstein: Enemy Territory - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #18
+<td><img src="/images/twlbanner_sof2.jpg" alt="Soldier of Fortune 2 - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #19
+<td><img src="/images/twlbanner_ut2k3.jpg" alt="Unreal Tournament 2003 - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #20
+<td><img src="/images/twlbanner_T2.jpg" alt="Tribes 2 - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #21
+<td><img src="/images/twlbanner_tribes.jpg" alt="Tribes - compiled by Fitty Tuck" height="50" width="780" /></td>
+%% #22
+<td><img src="/images/twlbanner_blackhawkdown.jpg" alt="Black Hawk Down - compiled by Fitty Tuck" height="50" width="780" /></td>

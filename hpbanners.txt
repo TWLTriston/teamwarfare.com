@@ -1,0 +1,6 @@
+%% #1
+<br /><center><a href="/stuff/">Check out our new official TWL Mousepads!<br /><img src="/images/pad/banner.jpg" height="115" width="360" alt="Official TeamWarfare Mousepads - Learn More" border="0" /></a></center>
+
+%% #2
+<br /><center><a href="http://events.teamwarfare.com/">Presenting LAN Of The Free, an AA tournament and LAN party!<br /><img src="/images/lotfbanner.jpg" height="115" width="360" alt="LAN of the Free - TWL Events" border="0" /></a></center>
+

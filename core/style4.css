@@ -1,0 +1,112 @@
+body {
+ color: #ffffff;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+ font-family: verdana, arial, helvetica, sans-serif;
+ font-size: 12px;
+ z-index: 1;
+ scrollbar-face-color: #123416;
+ scrollbar-highlight-color: #123416;
+ scrollbar-shadow-color: #132C15;
+ scrollbar-3dlight-color: #132C15;
+ scrollbar-arrow-color: #ffffff;
+ scrollbar-track-color: #000000;
+ scrollbar-darkshadow-color: #132C15;
+}
+
+a, a:visited, a:active, a:link { color: #ffd142; text-decoration: none }
+a:hover { color: #ffffff; text-decoration: none }
+
+p, font, td, ol, ul, li, br { font-size: 11px; font-family: verdana, arial, helvetica, sans-serif }
+th { font-weight: bold; font-size: 11px; font-color: #ffffff; font-family: verdana; } 
+
+table.cssBordered td td { border: 0px; }
+table.cssBordered td th { border: 0px; }
+table.cssBordered th td { border: 0px; }
+table.cssBordered th th { border: 0px; }
+
+.small { font-size: 11px; color: #ffffff; font-family: verdana, arial, helvetica, sans-serif }
+.edited { font-size: 10px; color: #aaaaaa; font-family: verdana, arial, helvetica, sans-serif }
+.headline { font-weight: bold; font-size: 14px; cursor: default; font-family: verdana, arial, helvetica, sans-serif }
+.boxheader { font-weight: bold; font-size: 13px; color: #ffd342; font-family: verdana, arial, helvetica, sans-serif }
+.navhead { font-weight: bold; font-size: 12px; font-family: verdana, arial, helvetica, sans-serif }
+.written { font-size: 9px; color: #b9c0bb; font-family: verdana, arial, helvetica, sans-serif }
+.newsheader { font-weight: bold; font-size: 14px; color: #ffd142; font-family: verdana, arial, helvetica, sans-serif }
+.error { color: #ff0000; } 
+.note { font-size: 10px; } 
+.forumdescription { font-size: 10px; color: #ffffff; } 
+.smalltime { font-size: 10px; color: #aaaaaa; } 
+.smalldate { font-size: 10px; color: #ffffff; } 
+.pageheader { padding: 5px; font-weight: bold; font-size: 12px; } 
+.pagelist { font-size: 10px; } 
+.currentpage { font-weight: bold; font-size: 12px; } 
+.usertitle { font-size: 10px; } 
+.postoptions { font-size: 11px; } 
+.originalposter { font-size:11px; font-style: italic; } 
+.legend { font-weight: bold; font-size: 9px; } 
+
+.historybox { font-size: 11px; font-family: verdana, arial, helvetica, sans-serif } 
+a.historybox:visited { font-size: 11px; color: #ffd142; text-decoration: none } 
+a.historybox:active { font-size: 11px; color: #ffd142; text-decoration: none } 
+a.historybox:link { font-size: 11px; color: #ffd142; text-decoration: none } 
+a.historybox:hover { font-size: 11px; color: #ffffff; text-decoration: none } 
+a.historybox { font-size: 11px; color: #ffd142; text-decoration: none } 
+
+.columnheader { color: #ffffff; font-weight: 600; font-size: 10px; } 
+a.columnheader:hover { color: #ffffff; text-decoration: none; } 
+
+.category, a.category, a.category:link, a.category:active, a.category:visited { font-weight: 600; font-size: 13px; color: #ffffff; text-decoration: none; } 
+a.category:hover { text-decoration: underline; } 
+
+.littlelinks { font-size: 10px; } 
+a.littlelinks, a.littlelinks:link, a.littlelinks:active, a.littlelinks:visited { font-size: 10px; text-decoration: underline; } 
+a.littlelinks:hover { text-decoration: none; } 
+
+hr { color: #b8852a; height: 1px }
+hr.bright { color: #b8bfbc; height: 1px }
+hr.forum { color: #3C4F3A; height: 1px; } 
+
+input { border: #b8bfbc 1px solid; font-size: 11px; background: #000000; color: #ffffff; }
+input.text { border: #b8bfbc 1px solid; font-size: 11px; background: #000000; color: #ffffff; }
+input.borderless { border: #b8bfbc 0px solid; font-size: 11px; background: ; color: #ffffff;  }
+input.bright { border: #b8bfbc 1px solid; font-size: 11px; background: #000000; color: #ffffff; font-family: verdana }
+input.brightgold { border: #b8bfbc 1px solid; font-size: 11px; background: #1f0000; color: #ffcf3f; font-family: verdana }
+
+textarea { border: #b8bfbc 1px solid; background: #000000; color: #ffffff; } 
+
+select { border: #b8bfbc 0px solid; font-size: 11px; background: #000000; color: #ffffff; } 
+select.bright { border: #b8bfbc 0px solid; font-size: 11px; background: #000000; color: #ffffff; } 
+select.brightred { border: #b8bfbc 0px solid; font-size: 12px; background: #000000; color: #ffcf3f; } 
+
+blockquote.forumquote { border: 1px solid #3C4F3A; padding: 2px 2px 2px 2px; margin: 5px 5px 5px 5px; } 
+
+table.cssBordered { border-top: 1px solid #3C4F3A; border-left: 1px solid #3C4F3A; }
+table.cssBordered td { border-right: 1px solid #3C4F3A; border-bottom: 1px solid #3C4F3A; padding: 4px;}
+table.cssBordered th { background-color: #000000; padding: 4px; border-right: 1px solid #3C4F3A; border-bottom: 1px solid #3C4F3A; }
+
+.cssTier0Off { 
+	padding: 4px 4px 4px 4px; margin: 0px 0px 0px 0px; font-family: Arial, Helvetica; 
+	font-size: 12px; width: 130px; background-color: #123416; color: #ffffff;
+	font-weight: bold; text-align: center; cursor: pointer; z-order: 10; 
+	border: 1px solid #132C15;
+}
+		
+.cssTier1Off { 
+	padding: 4px 4px 4px 4px; margin: 0px 0px 0px 0px; font-family: Arial, Helvetica; 
+	font-size: 11px; width: 200px; background-color: #123416; color: #ffffff;
+	font-weight: bold; text-align: left; cursor: pointer; z-order: 20; border: 1px solid #132C15; 
+}
+
+.cssTier2Off { 
+	padding: 4px 4px 4px 4px; margin: 0px 0px 0px 0px; font-family: Arial, Helvetica; 
+	font-size: 10px; width: 200px; background-color: #123416; color: #ffffff;
+	text-align: left; cursor: pointer; z-order: 20; border: 1px solid #132C15; 
+	font-weight: bold;
+}
+
+.cssTier3Off { 
+	padding: 4px 4px 4px 4px; margin: 0px 0px 0px 0px; font-family: Arial, Helvetica; 
+	font-size: 10px; width: 200px; background-color: #123416; color: #ffffff; 
+	text-align: left; cursor: pointer; z-order: 20; border: 1px solid #132C15; 
+	font-weight: bold;
+}

@@ -1,0 +1,102 @@
+<html>
+<head>
+	<title>TeamWarfare: Mouse Pad</title>
+	<script language="javascript" type="text/javascript">
+	<!--
+		// Image Toy -- by Triston - 4/6/04 - triston@teamwarfare.com
+		// http://www.teamwarfare.com/
+	
+		var arrPictures = new Array();	
+		//arrPictures[0] = new Array ("Viper1.jpg", "Say bye bye to Max Payne");
+		arrPictures[0] = new Array ("Faken1.jpg", "Faken's beauty shot");
+		arrPictures[1] = new Array ("TristonTrackBall1.jpg", "It even works with trackballs!");
+//		arrPictures[2] = new Array ("Triston1.jpg", "Triston's, dark");
+//		arrPictures[4] = new Array ("TristonGrips.jpg", "Mouse Grips, added control + easy mouse identification");
+		
+		var imgNextImage =  new Image();
+		var iImageNum;
+	
+		function fFirstImage() {
+			iImageNum = Math.floor(Math.random() * arrPictures.length);
+			fLoadImage();
+		}
+		
+		function fLoadImage() {
+			imgNextImage.onload = fLoadNextImage;
+			imgNextImage.src = arrPictures[iImageNum][0];
+		}
+		
+		function fLoadNextImage() {
+			document['imgPic'].src = imgNextImage.src;
+			document.getElementById('divCaption').innerHTML = arrPictures[iImageNum][1];
+			document.getElementById('divPrevious').style.visibility = "visible";
+			document.getElementById('divNext').style.visibility = "visible";
+		}
+		
+		function fPreviousImage() {
+			//  A func
+			iImageNum--;
+			if (iImageNum <= 0) {
+				iImageNum = arrPictures.length - 1;
+			}
+			fLoadImage();
+			document.getElementById('divPrevious').style.visibility = "visible";
+			document.getElementById('divNext').style.visibility = "visible";
+		}
+		
+		function fNextImage() {
+			// b func
+			iImageNum++;
+			if (iImageNum >= arrPictures.length) {
+				iImageNum = 0;
+			}
+			fLoadImage();
+			document.getElementById('divPrevious').style.visibility = "visible";
+			document.getElementById('divNext').style.visibility = "visible";
+		}
+	//-->
+	</script>
+	<style type="text/css">
+	<!--
+		body { font-family: verdana; font-size: 10px; color: #ffffff; background-color: #000000; padding: 20px; }
+		td, th { font-family: verdana; font-size: 10px; }
+
+		table.cssBordered { border-top: 1px solid #444444; border-left: 1px solid #444444; }
+		table.cssBordered td { border-right: 1px solid #444444; border-bottom: 1px solid #444444; padding: 4px;}
+		table.cssBordered th { background-color: #000000; padding: 4px; border-right: 1px solid #444444; border-bottom: 1px solid #444444; }
+
+		table.cssBordered td td { border: 0px; }
+		table.cssBordered td th { border: 0px; }
+		table.cssBordered th td { border: 0px; }
+		table.cssBordered th th { border: 0px; }	
+
+		a, a:visited, a:active, a:link { color: #ffd142; text-decoration: none }
+		a:hover { color: #ffffff; text-decoration: none }
+	//-->
+	</style>
+</head>
+<body onload="fFirstImage();">
+
+<table border="0" cellspacing="0" cellpadding="0" class="cssBordered" width="625" align="center" height="100%">
+<tr>
+	<th height="30">TeamWarfare - The Mouse pad!</th>
+</tr>
+<tr>
+	<td height="30">
+		<table border="0" cellspacing="0" cellpadding="0" width="100%">
+		<tr>
+			<td><div name="divPrevious" id="divPrevious" style="visibility: hidden;"><a href="javascript:fPreviousImage();">&laquo; Previous Image</a></div></td>
+			<td align="right"><div name="divNext" id="divNext" style="visibility: hidden;"><a href="javascript:fNextImage();">Next Image &raquo;</a></div></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td align="center" valign="top">
+		<div name="divCaption" id="divCaption">Loading image...</div><br />
+		<img src="/images/spacer.gif" border="0" name="imgPic" id="imgPic" />
+	</td>
+</tr>
+</table>
+</body>
+</html>
